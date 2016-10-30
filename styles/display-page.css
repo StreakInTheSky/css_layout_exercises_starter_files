@@ -5,7 +5,7 @@ main {
 	margin-top: 20px;
 }
 
-main div {
+main div div {
 	border: 1px black solid;
 }
 

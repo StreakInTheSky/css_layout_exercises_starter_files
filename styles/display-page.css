@@ -3,14 +3,19 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 20px;
+	font-size: 0;
 }
 
 main div div {
 	border: 1px black solid;
 }
 
+.topRow div {
+	display: inline-block;
+}
+
 .green, .blue {
-	width: 50%;
+	width: 48%;
 	height: 200px;
 }
 

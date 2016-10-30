@@ -1,5 +1,6 @@
 nav {
 	position: fixed;
+	top: 0;
 	width: 100%;
 	background-color: grey;
 	padding-left: 60px;
@@ -26,4 +27,18 @@ nav ul {
 nav ul li {
 	border-right: 1px black solid;
 	padding-right: 5px;
+}
+
+main {
+	margin-top: 200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.greenBox {
+	width: 600px;
+	height: 300px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 10px green dotted;
 }

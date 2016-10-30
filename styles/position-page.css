@@ -7,22 +7,20 @@ nav {
 }
 
 nav * {
-	position: relative;
 	display: inline-block;
 }
 
 nav img {
-	display: absolute;
-	top: 5px;
-	bottom: 5px;
+	margin: 5px;
 	border-radius: 50%;
 	width: 50px;
 	border: 1px black solid;
 }
 
-nav ul{
-	list-style: none;
-
+nav ul {
+	position: relative;
+	margin: 0;
+	bottom: 25px;
 }
 
 nav ul li {

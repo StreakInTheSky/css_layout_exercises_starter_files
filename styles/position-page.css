@@ -36,9 +36,28 @@ main {
 }
 
 .greenBox {
+	position: relative;
 	width: 600px;
 	height: 300px;
 	margin-right: auto;
 	margin-left: auto;
 	border: 10px green dotted;
+}
+
+.greenBox img {
+	position: absolute;
+	height: 200px;
+	width: 200px;
+	padding: 5px;
+	border: 1px blue solid;
+}
+
+.cat {
+	top: -100px;
+	left: -100px;
+}
+
+.dog {
+	bottom: -100px;
+	right: -100px;
 }

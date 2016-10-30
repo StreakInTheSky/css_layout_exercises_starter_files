@@ -10,7 +10,7 @@ main div div {
 	border: 1px black solid;
 }
 
-.topRow div {
+.topRow div, .bottomRow div {
 	display: inline-block;
 }
 

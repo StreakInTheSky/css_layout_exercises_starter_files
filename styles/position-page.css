@@ -1,1 +1,31 @@
+nav {
+	position: fixed;
+	width: 100%;
+	background-color: grey;
+	padding-left: 60px;
+	padding-right: 60px;
+}
 
+nav * {
+	position: relative;
+	display: inline-block;
+}
+
+nav img {
+	display: absolute;
+	top: 5px;
+	bottom: 5px;
+	border-radius: 50%;
+	width: 50px;
+	border: 1px black solid;
+}
+
+nav ul{
+	list-style: none;
+
+}
+
+nav ul li {
+	border-right: 1px black solid;
+	padding-right: 5px;
+}
